@@ -9,7 +9,6 @@ Summary: Attribute editor for Xv extensions
 License: GPL
 Group:	 Video
 Source:	 http://www.dtek.chalmers.se/~dvd/dist/%{name}-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires: gtk+-devel
 BuildRequires: libxv-devel
 URL:	http://www.dtek.chalmers.se/groups/dvd/
