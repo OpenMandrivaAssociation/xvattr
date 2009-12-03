@@ -1,6 +1,6 @@
 %define name	xvattr
 %define version	1.3
-%define release	%mkrel 7
+%define release	%mkrel 8
 
 Name:	%{name}
 Version: %{version}
@@ -9,8 +9,10 @@ Summary: Attribute editor for Xv extensions
 License: GPL
 Group:	 Video
 Source:	 http://www.dtek.chalmers.se/~dvd/dist/%{name}-%{version}.tar.bz2
+# (gentoo) use gtk+2.0:
+Patch0:  xvattr-1.3-gtk.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
-BuildRequires: gtk+-devel
+BuildRequires: gtk+2-devel
 BuildRequires: libxv-devel
 URL:	http://www.dtek.chalmers.se/groups/dvd/
 
@@ -22,6 +24,7 @@ programs that use Xv overlays.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure2_5x
