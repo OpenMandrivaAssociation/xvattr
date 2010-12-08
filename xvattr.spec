@@ -1,6 +1,6 @@
 %define name	xvattr
 %define version	1.3
-%define release	%mkrel 8
+%define release	%mkrel 9
 
 Name:	%{name}
 Version: %{version}
