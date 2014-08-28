@@ -9,7 +9,7 @@ Source:	 http://www.dtek.chalmers.se/~dvd/dist/%{name}-%{version}.tar.bz2
 # (gentoo) use gtk+2.0:
 Patch0:  xvattr-1.3-gtk.patch
 Patch1:  xvattr-1.3-encoding.patch
-BuildRequires: gtk+2-devel
+BuildRequires: pkgconfig(gtk+-2.0)
 BuildRequires: pkgconfig(xv)
 
 
