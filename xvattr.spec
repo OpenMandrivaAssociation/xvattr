@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 Name:	xvattr
 Version: 1.3
 Release: 11
