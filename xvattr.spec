@@ -2,7 +2,7 @@
 
 Name:	xvattr
 Version: 1.3
-Release: 11
+Release: 12
 Summary: Attribute editor for Xv extensions
 License: GPL
 Group:	 Video
