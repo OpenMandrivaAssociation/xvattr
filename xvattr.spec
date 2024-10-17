@@ -6,7 +6,7 @@ Release: 12
 Summary: Attribute editor for Xv extensions
 License: GPL
 Group:	 Video
-URL:	http://www.dtek.chalmers.se/groups/dvd/
+URL:	https://www.dtek.chalmers.se/groups/dvd/
 Source:	 http://www.dtek.chalmers.se/~dvd/dist/%{name}-%{version}.tar.bz2
 # (gentoo) use gtk+2.0:
 Patch0:  xvattr-1.3-gtk.patch
